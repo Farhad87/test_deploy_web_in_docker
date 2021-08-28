@@ -20,7 +20,6 @@ services:
     volumes:
       - ./backend:/usr/src/app
       - ./env:/usr/src/app/env
-
     depends_on:
       - postgresdb
     ports:
