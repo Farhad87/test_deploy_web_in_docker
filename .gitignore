@@ -2,7 +2,8 @@
 __pycache__/
 *.py[cod]
 test_deploy_env/
-.git
+.git/
+.idea/
 
 # C extensions
 *.so
