@@ -1,0 +1,5 @@
+CREATE USER admin WITH PASSWORD 'adminpass';
+
+CREATE DATABASE proddb;
+
+GRANT ALL PRIVILEGES ON DATABASE proddb TO admin;
